@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "displayName": "Test",
+    "description": "This is stone's first vscode theme test",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "test-stone",
+                "uiTheme": "vs-dark",
+                "path": "./themes/test-stone-color-theme.json"
+            }
+        ]
+    }
+}
